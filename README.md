@@ -1,0 +1,2 @@
+# Sub5-Asaj-Notes-With-RESTfulAPI
+This project is an advanced continuation of the Notes App, requiring you to apply modern frontend development skills. You will manage JavaScript packages, bundle your code using a module bundler like Webpack, and fetch data from external APIs using asynchronous requests. This final submission evaluates your ability to build a scalable, production-ready web application that integrates package management, bundling, and API consumption.
