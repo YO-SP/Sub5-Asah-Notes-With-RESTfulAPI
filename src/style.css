@@ -1,0 +1,49 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 20px;
+  background-color: #f5f7fa;
+  color: #333;
+}
+
+h2 {
+  margin-top: 40px;
+  font-weight: 600;
+}
+
+.notes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  column-gap: 34px;
+  row-gap: 12px;
+  margin-top: 16px;
+  align-items: start;
+}
+
+.loading {
+  font-size: 16px;
+  color: #555;
+  background: #e9ecef;
+  padding: 8px 12px;
+  border-radius: 8px;
+  width: fit-content;
+}
+
+.hidden {
+  display: none;
+}
+
+.delete-btn {
+  margin-top: 8px;
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 12px;
+  transition: background 0.2s ease;
+}
+
+.delete-btn:hover {
+  background-color: #ff1a1a;
+}
